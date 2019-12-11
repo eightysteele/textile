@@ -15,7 +15,8 @@ import (
 
 var (
 	daemonAddr = "127.0.0.1:1234"
-	authToken  = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.ABFsb_wXxww9XxqD3nM5KEuXekBtNsWIKpyoDZR0Qwc"
+	// generate with: `lotus auth create-token --perm admin`
+	authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.ABFsb_wXxww9XxqD3nM5KEuXekBtNsWIKpyoDZR0Qwc"
 )
 
 func main() {
